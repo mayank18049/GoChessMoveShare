@@ -6,11 +6,11 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	"github.com/mayank18049/GoChessShare/internal/adapters/gamehandler/http"
-	"github.com/mayank18049/GoChessShare/internal/adapters/gamerepo/memory"
-	"github.com/mayank18049/GoChessShare/internal/adapters/messagebroker/rabbitmq"
-	"github.com/mayank18049/GoChessShare/internal/domain/ports"
-	"github.com/mayank18049/GoChessShare/internal/service"
+	"github.com/mayank18049/GoChessMoveShare/internal/adapters/gamehandler/http"
+	"github.com/mayank18049/GoChessMoveShare/internal/adapters/gamerepo/memory"
+	"github.com/mayank18049/GoChessMoveShare/internal/adapters/messagebroker/rabbitmq"
+	"github.com/mayank18049/GoChessMoveShare/internal/domain/ports"
+	"github.com/mayank18049/GoChessMoveShare/internal/service"
 )
 
 func main() {
